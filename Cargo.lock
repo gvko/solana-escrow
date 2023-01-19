@@ -386,21 +386,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bpf-program-template"
-version = "0.1.0"
-dependencies = [
- "arrayref",
- "assert_matches",
- "solana-logger",
- "solana-program",
- "solana-program-test",
- "solana-sdk",
- "solana-validator",
- "spl-token",
- "thiserror",
-]
-
-[[package]]
 name = "bs58"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4118,6 +4103,21 @@ dependencies = [
  "solana-perf",
  "solana-rayon-threadlimit",
  "solana-sdk",
+]
+
+[[package]]
+name = "solana-escrow"
+version = "0.1.0"
+dependencies = [
+ "arrayref",
+ "assert_matches",
+ "solana-logger",
+ "solana-program",
+ "solana-program-test",
+ "solana-sdk",
+ "solana-validator",
+ "spl-token",
+ "thiserror",
 ]
 
 [[package]]
